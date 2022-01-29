@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added 
 
+- Add Changelog, Readme, gitignore
+- Add Gemfile and Gemfile.lock
+- Add Todo, Scratch, Notes generator
+
 ### Changed
 
 ### Deprecated
