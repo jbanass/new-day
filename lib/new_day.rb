@@ -1,4 +1,5 @@
 require 'date'
+require 'pathname'
 require 'fileutils'
 
 require_relative './generators/todo.rb'
