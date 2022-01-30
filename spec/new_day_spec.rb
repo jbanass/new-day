@@ -87,6 +87,12 @@ describe NewDay do
   end
 
   describe 'run' do
-
+    it "calls each generator once" do
+      allow(subject).to receive(:create_file)
+      expect(subject).to receive(:scratch_generator).once.and_call_original
+      expect(subject).to receive(:note_generator).once.and_call_original
+      expect(subject).to receive(:todo_generator).once.and_call_original
+      subject.run
+    end
   end
 end
