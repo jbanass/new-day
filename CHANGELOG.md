@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add Changelog, Readme, gitignore
 - Add Gemfile and Gemfile.lock
 - Add Todo, Scratch, Notes generator
+- Add NewDay class and shell script for running
 
 ### Changed
 
