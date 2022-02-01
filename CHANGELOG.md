@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add Todo, Scratch, Notes generator
 - Add NewDay class and shell script for running
 - Add GitHub Workflow for test runners
+- Add hint for cycling TODO states
 
 ### Changed
 
