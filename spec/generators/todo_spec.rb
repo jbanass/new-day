@@ -12,6 +12,7 @@ describe Generators::Todo do
       #+TODO: TODO IN-PROGRESS WAITING DONE
 
       # Helpful shortcuts:
+      #   (C-c [): Add current file to org-agenda
       #   (C-c C-c): Recalc statistic cookies/cycle checkboxes
       #   (C-c C-t): Cycle through todo states
       ORG
