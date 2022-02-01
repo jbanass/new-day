@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add GitHub Workflow for test runners
 - Add hint for cycling TODO states
 - Add hint to add TODO file to org-agenda
+- Add hint to submit timestamps for TODO items
 
 ### Changed
 
