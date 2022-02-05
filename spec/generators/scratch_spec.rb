@@ -6,7 +6,10 @@ describe Generators::Scratch do
 
   let(:expected_result ) {
     <<~ORG
-    # This file serves as a temporary area for snippets during the day
+      # This file serves as a temporary area for snippets during the day
+
+      # Helpful shortcuts:
+      #   (C-u C-c C-o): Open a link
     ORG
   }
 

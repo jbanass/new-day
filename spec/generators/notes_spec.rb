@@ -6,7 +6,10 @@ describe Generators::Note do
 
   let(:expected_result) {
     <<~ORG
-    # This serves as a general notetaking area for items experienced during the day
+      # This serves as a general notetaking area for items experienced during the day
+
+      # Helpful shortcuts:
+      #   (C-u C-c C-o): Open a link
     ORG
   }
 

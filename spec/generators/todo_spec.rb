@@ -8,14 +8,15 @@ describe Generators::Todo do
   describe "#generate" do
     let(:expected_output) {
       <<~ORG
-      #+TITLE: Todo for #{ DateTime.now.strftime("%Y/%m/%d") }
-      #+TODO: TODO IN-PROGRESS WAITING DONE
+        #+TITLE: Todo for #{ DateTime.now.strftime("%Y/%m/%d") }
+        #+TODO: TODO IN-PROGRESS WAITING DONE
 
-      # Helpful shortcuts:
-      #   (C-c [): Add current file to org-agenda
-      #   (C-c C-c): Recalc statistic cookies/cycle checkboxes
-      #   (C-c C-t): Cycle through todo states
-      #   (C-c .): Add timestamp to TODO item
+        # Helpful shortcuts:
+        #   (C-c [): Add current file to org-agenda
+        #   (C-c C-c): Recalc statistic cookies/cycle checkboxes
+        #   (C-c C-t): Cycle through todo states
+        #   (C-c .): Add timestamp to TODO item
+        #   (C-u C-c C-o): Open a link
       ORG
     }
 
