@@ -5,6 +5,8 @@ your day right for task tracking, note taking, and a general scratchpad by
 placing these files in a YYYY-MM-DD structure located by the `NEW_DAY_DIR` env
 variable.
 
+udmmy update
+
 ## Using NewDay
 
 NewDay can either be called directly from `PROJECT_ROOT/bin/new-day.sh` or
