@@ -9,6 +9,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added 
 
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+
+## [0.0.1]
+
+### Added 
+
 - Add Changelog, Readme, gitignore
 - Add Gemfile and Gemfile.lock
 - Add Todo, Scratch, Notes generator
@@ -23,14 +37,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Change workflow filename from ruby to ci
 
-### Deprecated
-
-### Removed
-
-### Fixed
-
 ### Security
 
 - Update to Ruby 3.3.0
 
-[unreleased]: https://github.com/jbanass/new-day/compare/HEAD...HEAD
+[unreleased]: https://github.com/jbanass/new-day/compare/v0.0.1...HEAD
+[0.0.1]: https://github.com/jbanass/new-day/releases/tag/v0.0.1
