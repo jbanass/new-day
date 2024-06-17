@@ -15,4 +15,4 @@ for your org files, or by default, it will use `$HOME/notes/`.
 
 ## Requirements
 
-- Ruby 2.7.7
+- Ruby 3.3.x

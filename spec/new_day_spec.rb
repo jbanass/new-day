@@ -71,7 +71,7 @@ describe NewDay do
   describe '#create_file' do
     it 'writes content to a file within the notes directory' do
       buffer = StringIO.new
-      allow(File).to receive(:exists?).with(directory_to_create.join("todo.org")).once.and_return(false)
+      allow(File).to receive(:exist?).with(directory_to_create.join("todo.org")).once.and_return(false)
       allow(File).to receive(:open).with(directory_to_create.join('todo.org'), 'w').and_yield(buffer)
       subject.create_file('todo.org', 'TODO')
       expect(buffer.string).to eq('TODO')
@@ -79,7 +79,7 @@ describe NewDay do
 
     context 'when a file already exists' do
       it 'does not overwrite' do
-        expect(File).to receive(:exists?).with(directory_to_create.join('todo.org')).once.and_return(true)
+        expect(File).to receive(:exist?).with(directory_to_create.join('todo.org')).once.and_return(true)
         expect(File).not_to receive(:open)
         subject.create_file('todo.org', 'TODO')
       end

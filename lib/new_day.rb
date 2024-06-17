@@ -22,11 +22,11 @@ class NewDay
   end
 
   def directory_exists?
-    File.exists?(directory_to_create)
+    File.exist?(directory_to_create)
   end
 
   def create_file(filename, content)
-    unless File.exists?(directory_to_create.join(filename))
+    unless File.exist?(directory_to_create.join(filename))
       File.open(directory_to_create.join(filename), 'w') { |file| file.write(content) }
     end
   end

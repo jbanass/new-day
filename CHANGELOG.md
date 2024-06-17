@@ -20,7 +20,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Update to Ruby 2.7.7
 - Change workflow filename from ruby to ci
 
 ### Deprecated
@@ -30,5 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 ### Security
+
+- Update to Ruby 3.3.0
 
 [unreleased]: https://github.com/jbanass/new-day/compare/HEAD...HEAD
