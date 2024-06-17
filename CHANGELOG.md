@@ -20,6 +20,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- Update to Ruby 2.7.7
+
 ### Deprecated
 
 ### Removed
@@ -29,4 +31,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 
 [unreleased]: https://github.com/jbanass/new-day/compare/HEAD...HEAD
-
